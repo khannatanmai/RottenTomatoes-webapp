@@ -1,0 +1,21 @@
+#+TITLE: Front End Documentation File
+#+DATE: 6th April, 2017
+#+AUTHOR: Nikhil Pinnaparaju
+
+* Introduction
+This =orgmode= file contains the explaination of the Web Pages and their layout along with their attached codes.
+
+In order to create the FrontEnd of this Application, Bootstrap was extensively used and no premade templates were directly taken.
+
+* Web Pages
+** Main Page (Home)
+*** Design
+The =home= of the application, starts the page with the =navigation bar= along with the =search bar= and several links attached.
+Along with this there are the =Log in= and =Register= buttons as well. 
+
+Below the main =nav bar=, we have a =carousel= with a scroll of data. Temporarily I have set the limit on scroll to be 3, however 
+this can be changed to suit site functionality.
+
+Followed the over =carousel=, we have several tables of data, that are populated based on the criteria of the table (most popular,
+grossing, etc.). Below this we some links that give the website a more realistic feel such as the =privacy= and =terms= links 
+along with an added functionality of a link to go back to the top on click.
